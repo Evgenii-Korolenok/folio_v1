@@ -1,0 +1,451 @@
+@media (max-width: 1499px) {
+    .hero-card-image {
+        height: 1000px;
+    }
+    
+    .hero-card-image img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media (max-width: 1369px) {
+    .split_content .about_text {
+        font-size: 2em;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero-card-text .hero-text {
+        font-size: 2em;
+    }
+
+    .heading_medium {
+        font-size: 4em;
+    }
+
+    .swiper-button-next, 
+    .swiper-button-prev {
+        display: none;
+    }
+}
+
+@media (max-width: 980px) {
+    .ticker_container .ticker_item {
+        font-size: 15em;
+    }
+
+    .hero-card-image {
+        height:700px;
+    }
+
+    .split_content .about_text {
+        font-size: 1.8em;
+        line-height: 1.3;
+    }
+
+    .accordion_item .accordion_header {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header_link {
+        font-size: 6.25em;
+    }
+
+    .hero-card-text {
+        height: 700px;
+    }
+
+    .hero-card-text .hero-text {
+        font-size: 2.5em;
+    }
+
+    .hero_container .double-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .about_container .split_content{
+        grid-template-columns: 1fr;
+        grid-row-gap: 60px;
+    }
+
+    .split_content{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 597px) {
+    .double-cards .hero-card-text {
+        height: 600px;
+        padding: 32px 16px 16px 16px;
+    }
+
+    .hero-card-image {
+        height:600px;
+    }
+}
+
+@media (max-width: 576px) {
+    .link_container .header_link {
+        font-size: 4.25em;
+    }
+
+    .hero-card-text .hero-text {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 460px) {
+    .page-wrapper {
+        max-width: 460px;
+    }
+
+    .header_link {
+        font-size: 3.9em;
+    }
+
+    .double-cards .hero-card-text {
+        height: 500px;
+    }
+
+    .hero-card-image {
+        height:500px;
+    }
+
+    .split_content .service_cards {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial_container .split_content .heading_medium {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 380px) {
+    .split_content .heading_medium {
+        font-size: 4em;
+    }
+
+    .split_content .about_text {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 360px) {  
+    .hero-card-text .hero-text {
+        font-size: 1.5em;
+    }
+
+    .image_content .card_image {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero_container .ticker_container {
+        padding-top: 64px;
+    }
+
+    .ticker_container .ticker_item {
+        font-size: 9em;
+        letter-spacing: -5px;
+    }
+
+    .link_container .header_link {
+        font-size: 3.25em;
+    }
+
+    .split_content .heading_medium {
+        line-height: 1.1;
+    }
+
+    .testimonial_container .split_content .heading_medium {
+        font-size: 2.3em;
+    }
+}
+
+/*contacts links*/
+
+@media (max-width: 1770px) {
+    .contacts_links .link_facebook .facebook {
+        font-size: 11.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .whatsup {
+        font-size: 11.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .gmail {
+        font-size: 11.5rem;
+    }
+
+    .contacts_links .link_instagram .instagram {
+        font-size: 11.5rem;
+    }
+}
+
+@media (max-width: 1645px) {
+    .contacts_links .link_facebook .facebook {
+        font-size: 10.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .whatsup {
+        font-size: 10.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .gmail {
+        font-size: 10.5rem;
+    }
+
+    .contacts_links .link_instagram .instagram {
+        font-size: 10.5rem;
+    }
+}
+
+@media (max-width: 1500px) {
+    .contacts_links .link_facebook .facebook {
+        font-size: 9.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .whatsup {
+        font-size: 9.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .gmail {
+        font-size: 9.5rem;
+    }
+
+    .contacts_links .link_instagram .instagram {
+        font-size: 9.5rem;
+    }
+}
+
+@media (max-width: 1365px) {
+    .contacts_links .link_facebook .facebook {
+        font-size: 8.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .whatsup {
+        font-size: 8.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .gmail {
+        font-size: 8.5rem;
+    }
+
+    .contacts_links .link_instagram .instagram {
+        font-size: 8.5rem;
+    }
+}
+
+@media (max-width: 1230px) {
+    .contacts_links .link_facebook .facebook {
+        font-size: 7.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .whatsup {
+        font-size: 7.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .gmail {
+        font-size: 7.5rem;
+    }
+
+    .contacts_links .link_instagram .instagram {
+        font-size: 7.5rem;
+    }
+}
+
+@media (max-width: 1111px) {
+    .contacts_links .link_facebook .facebook {
+        font-size: 6.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .whatsup {
+        font-size: 6.5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .gmail {
+        font-size: 6.5rem;
+    }
+
+    .contacts_links .link_instagram .instagram {
+        font-size: 6.5rem;
+    }
+
+    .contacts_email .email_title {
+        font-size: 1.1rem;
+    }
+
+    .contacts_email .email {
+        font-size: 1.7rem;
+    }
+
+    .contacts_links .link_viber_whatsup {
+        word-spacing: 1rem;
+    }
+
+    .contacts_links .contacts_email {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 975px) {
+    .contacts_links .link_facebook .facebook {
+        font-size: 5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .whatsup {
+        font-size: 5rem;
+    }
+
+    .contacts_links .link_viber_whatsup .gmail {
+        font-size: 5rem;
+    }
+
+    .contacts_links .link_instagram .instagram {
+        font-size: 5rem;
+    }
+
+    .contacts_email .email_title {
+        font-size: 1rem;
+    }
+
+    .contacts_email .email {
+        font-size: 1.6rem;
+    }
+
+    .contacts_links .contacts_email {
+        margin-top: 3rem;
+    }
+
+    .contacts_header .logo_contact {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .contacts_links .link_facebook .facebook {
+        font-size: 4rem;
+    }
+
+    .contacts_links .link_viber_whatsup .whatsup {
+        font-size: 4rem;
+    }
+
+    .contacts_links .link_viber_whatsup .gmail {
+        font-size: 4rem;
+    }
+
+    .contacts_links .link_instagram .instagram {
+        font-size: 4rem;
+    }
+
+    .contacts_email .email_title {
+        font-size: 1rem;
+    }
+
+    .contacts_email .email {
+        font-size: 1.4rem;
+    }
+
+    .contacts_links .link_viber_whatsup {
+        word-spacing: 1rem;
+    }
+
+    .contacts_links .contacts_email {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .contacts_links .link_facebook .facebook {
+        font-size: 3rem;
+    }
+
+    .contacts_links .link_viber_whatsup .whatsup {
+        font-size: 3rem;
+    }
+
+    .contacts_links .link_viber_whatsup .gmail {
+        font-size: 3rem;
+    }
+
+    .contacts_links .link_instagram .instagram {
+        font-size: 3rem;
+    }
+
+    .contacts_email .email_title {
+        font-size: 1rem;
+    }
+
+    .contacts_email .email {
+        font-size: 1.2rem;
+    }
+
+    .contacts_links .contacts_email {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 490px) {
+    .contacts_links .link_facebook .facebook {
+        font-size: 2rem;
+    }
+
+    .contacts_links .link_viber_whatsup .whatsup {
+        font-size: 2rem;
+    }
+
+    .contacts_links .link_viber_whatsup .gmail {
+        display: none;
+    }
+
+    .contacts_links .link_instagram .instagram {
+        font-size: 2rem;
+    }
+
+    .contacts_email .email_title {
+        font-size: 1rem;
+    }
+
+    .contacts_email .email {
+        font-size: 1.2rem;
+    }
+
+    .contacts_links .contacts_email {
+        margin-top: 1.3rem;
+    }
+
+    .contacts_header .logo_contact {
+        margin-bottom: 2rem;
+    }
+
+    .contacts_links {
+        line-height: 1.6;
+    }
+
+    .instead_of_footer .evgenii_email {
+        margin-left: 4px;
+    }
+}
+
+@media  (max-width: 320px) {
+    .contacts_links .link_facebook a.deal {
+        cursor: pointer;
+    }
+    
+    .contacts_links .link_viber_whatsup a.bar_chat {
+        cursor: pointer;
+    }
+    
+    .contacts_links .link_instagram a.start_up {
+        cursor: pointer;
+    }
+}

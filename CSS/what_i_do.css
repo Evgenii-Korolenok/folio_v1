@@ -1,0 +1,45 @@
+.what_i_do_container {
+    width: 100%;
+    padding: 0 32px 64px 32px;
+}
+
+.service_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.what_i_do_container .split_content {
+    grid-row-gap: 60px;
+}
+
+.img_container {
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small {
+    width: 54px;
+    height: 54px;
+}
+
+.defining,
+.launch,
+.analysis,
+.conversion {
+    padding: 20px;
+    background-color: var(--specific-color-1);
+    border-radius: 10px;
+    min-width: 197px;
+}
+
+.what_i_do_text {
+    margin-top: 50px;
+    font-size: 18px;
+    color: var(--secondary-color);
+}

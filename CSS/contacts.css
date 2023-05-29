@@ -1,0 +1,143 @@
+#contacts .page_wrapper {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.contacts_container {
+    width: 100%;
+    background-color: var(--main-color);
+    border-radius: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.contacts_header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_contact {
+    font-size: 20px;
+    color: var(--secondary-color);
+    margin: 0 0 5rem 0;
+}
+
+.contacts_links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram,
+.gmail,
+.whatsup,
+.facebook {
+    color: var(--secondary-color);
+    font-size: 12.5rem;
+    line-height: 0.9;
+}
+
+.contacts_links a:hover {
+    color: var(--specific-color);
+}
+
+.contacts_email {
+    margin-top: 5rem;
+}
+
+.email_title {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+.email {
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.email:hover {
+    color: var(--specific-color);
+}
+
+.link_viber_whatsup {
+    word-spacing: 2rem;
+}
+
+.contacts_email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instead_of_footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.evgenii_link,
+.evgenii_email {
+    color: var(--main-color);
+    font-size: 12px;
+}
+
+.evgenii_email {
+    margin-left: 16px;
+}
+
+.evgenii_link a:hover {
+    color: var(--specific-color);
+    border: 1px solid var(--specific-color);
+    border-radius: 1rem;
+    padding: 8px;
+}
+
+.back_to_top {
+    width: 105px;
+    padding: 8px;
+}
+
+.back_to_top a:hover {
+    color: var(--specific-color);
+}
+
+.back_to_top a{
+    color: var(--main-color);
+    font-size: 12px;
+}
+
+.back_to_top img {
+    width: 20px;
+    height: 20px;
+}
+
+a.deal {
+    cursor: url('../IMAGES/deal.png'), pointer;
+}
+
+a.bar_chat {
+    cursor: url('../IMAGES/bar-chart.png'), pointer;
+}
+
+a.searching {
+    cursor: url('../IMAGES/searching.png'), pointer;
+}
+
+a.start_up {
+    cursor: url('../IMAGES/start-up.png'), pointer;
+}
+
+.contacts_email a.letter {
+    cursor: url('../IMAGES/letter.png'), pointer;
+}
